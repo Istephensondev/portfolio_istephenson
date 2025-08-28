@@ -146,11 +146,7 @@ const data ={
       "link": "https://github.com/Istephensondev",
       "icon": "fa-brands fa-github"
     },
-    {
-      "label": "Buy me a coffee",
-      "link": "https://www.buymeacoffee.com/r194dME8y",
-      "icon": "fa fa-coffee"
-    }
+   
   ],
   "footer": [
     {
@@ -183,34 +179,66 @@ export const projects = [
     title: "Universal Audio Website",
     about: "Developed and maintened Universal Audio's eCommerce website using Magento, later transitioning to Shopify for theme customization and ongoing updates.",
     author: "Istephensondev",
-    name: "portfolio",
+    name: "ua-website",
     url: "https://www.uaudio.com/",
     image: "./assets/images/uaudio.png" // 👈 add project thumbnail
+  },
+   {
+    title: "Brookdale Full Email Marketing Campaign",
+    about: "Built a custom storefront for Wholesome Goods using Shopify for backend e-commerce and Vite for a fast, modern front-end. Delivered a responsive, high-performance shopping experience.",
+    author: "Istephensondev",
+    name: "marketing-campaign",
+    url: "https://www.pupgrade.com/?_atid=iqwLXx0PyRIh2GWHyhUQnFwjclxXQr",
+    image: "./assets/images/fullcampaign.png"
   },
   {
     title: "Wholesome Goods Storefront",
     about: "Built a custom storefront for Wholesome Goods using Shopify for backend e-commerce and Vite for a fast, modern front-end. Delivered a responsive, high-performance shopping experience.",
     author: "Istephensondev",
-    name: "weather-app",
-    url: "https://www.pupgrade.com/?_atid=iqwLXx0PyRIh2GWHyhUQnFwjclxXQr",
+    name: "wholsome-goods",
+    url: "https://github.com/Istephensondev/email-marketing-campaign-flowchart/blob/main/chart%20(2).png",
     image: "./assets/images/wholesomegoods.png"
+  },
+   {
+    title: "Brookdale Community Email",
+    about: "Designed and coded a community email for Brookdale Senior Living, focusing on clear messaging and responsive design to engage residents and families effectively across all devices.",
+    author: "Istephensondev",
+    name: "community-email",
+    url: "https://github.com/Istephensondev/brookdale-community-email/blob/main/boardtobite3.png",
+    image: "./assets/images/boardtobite.png"
   },
   {
     title: "UA Press Release",
     about: "Designed and coded a press release for Universal Audio, combining clear, engaging copy with responsive HTML/CSS to ensure seamless performance across devices and email platforms.",
     author: "Istephensondev",
-    name: "shop-app",
+    name: "press-release",
     url: "https://www.uaudio.com/blogs/press/universal-audio-releases-new-apollo-twin-x-usb-audio-interface",
     image: "./assets/images/pressrelease.png"
   },
-  {
-    title: "Chatbot Project",
-    about: "An AI-powered chatbot built with Node.js and NLP.",
+   {
+    title: "Brookdale Community Email",
+    about: "Designed and coded a community email for Brookdale Senior Living, focusing on clear messaging and responsive design to engage residents and families effectively across all devices.",
     author: "Istephensondev",
-    name: "chatbot",
-    url: "https://github.com/Istephensondev/chatbot",
-    image: "./assets/images/chatbot.png"
-  }
+    name: "community-email",
+    url: "https://github.com/Istephensondev/brookdale-trunk-or-treat/blob/main/trunkortreatproof.png",
+    image: "./assets/images/trunkortreat_2.png"
+  },
+  {
+    title: "Brookdale Email Campaign Flowchart",
+    about: "This flowchart outlines the process for developing and deploying community-requested emails. The process involves two key programs: Workfront (WF) for project management and Salesforce Marketing Cloud (SFMC) for email development and deployment.",
+    author: "Istephensondev",
+    name: "email-development",
+    url: "https://github.com/Istephensondev/email-campaign-flowchart/blob/main/emailcampaignflowchart.png",
+    image: "./assets/images/flowchart.png"
+  },
+     {
+    title: "Brookdale Community Email",
+    about: "Designed and coded a community email for Brookdale Senior Living, focusing on clear messaging and responsive design to engage residents and families effectively across all devices.",
+    author: "Istephensondev",
+    name: "community-email",
+    url: "https://github.com/Istephensondev/brookdale-valencia-community-email/blob/main/valenciascreenshot.png",
+    image: "./assets/images/valenciascreenshot.png"
+  },
 ];
 
 

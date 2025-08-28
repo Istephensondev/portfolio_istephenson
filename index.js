@@ -152,7 +152,7 @@ function populateRepo(items, id) {
   };
 
   // Use your curated projects (first 4)
-  const featured = (projects || []).slice(0, 4);
+  const featured = (projects || []).slice(0, 8);
 
   const repoTemplate = html`
     <div class="repo-grid">
