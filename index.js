@@ -93,37 +93,6 @@ function populateSkills(items, id) {
   render(skillsTemplate, skillsTag);
 }
 
-function populateBlogs(items, id) {
-  const projectdesign = document.getElementById(id);
-  const createCategoryBadges = (categories) => html`
-    <div class="categories-div">
-      ${categories.map(
-        (category) => html` <div class="profile-badge brown-badge">${category}</div> `
-      )}
-    </div>
-  `;
-
-  const blogTemplate = html`
-    ${items.slice(0, 3).map(
-      (item) => html`
-        <div class="blog-card">
-          <div class="blog-content">
-            <a href="${item.link}" target="_blank" class="blog-link">
-              <p class="blog-heading">${item.title}</p>
-              <p class="publish-date">${getBlogDate(item.pubDate)}</p>
-              <p class="blog-description">
-                ${item.content.replace(/<[^>]*>/g, '').trim()}
-              </p>
-              ${createCategoryBadges(item.categories)}
-            </a>
-          </div>
-        </div>
-      `
-    )}
-  `;
-
-  render(blogTemplate, projectdesign);
-}
 function populateRepo(items, id) {
   const container = document.getElementById(id);
   if (!container) return;
@@ -152,7 +121,7 @@ function populateRepo(items, id) {
   };
 
   // Use your curated projects (first 4)
-  const featured = (projects || []).slice(0, 8);
+  const featured = (projects || []).slice(0, 12);
 
   const repoTemplate = html`
     <div class="repo-grid">

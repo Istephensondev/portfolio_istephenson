@@ -215,6 +215,22 @@ export const projects = [
     url: "https://www.uaudio.com/blogs/press/universal-audio-releases-new-apollo-twin-x-usb-audio-interface",
     image: "./assets/images/pressrelease.png"
   },
+  {
+    title: "Universal Audio User Story & Requirements",
+    about: "Create user stories & requirements by capturing stakeholder inputs in a Word table, drafting stories with clear requirements, Figma wireframes, and acceptance criteria; load epics/stories into Jira, refine & estimate in grooming, then schedule into the next 2-week sprint.",
+    author: "Istephensondev",
+    name: "community-email",
+    url: "https://github.com/Istephensondev/brookdale-trunk-or-treat/blob/main/trunkortreatproof.png",
+    image: "./assets/images/ua_requirements.png"
+  },
+   {
+    title: "Universal Audio Marketing Email",
+    about: "Developed a responsive, globally deployed email for the Opal Synth marketing campaign, with localization, personalization, and full cross-client testing.",
+    author: "Istephensondev",
+    name: "community-email",
+    url: "https://github.com/Istephensondev/ua-opalsynth-email/blob/main/opal_synth_email_drip.png",
+    image: "./assets/images/opal_synth_istephenson.png"
+  },
    {
     title: "Brookdale Community Email",
     about: "Designed and coded a community email for Brookdale Senior Living, focusing on clear messaging and responsive design to engage residents and families effectively across all devices.",
@@ -231,6 +247,14 @@ export const projects = [
     url: "https://github.com/Istephensondev/email-campaign-flowchart/blob/main/emailcampaignflowchart.png",
     image: "./assets/images/flowchart.png"
   },
+   {
+    title: "Universal Audio Global Email - French",
+    about: "I developed a globally distributed email coded in French, featuring mobile-first HTML/CSS, dynamic personalization, and region-specific compliance (GDPR/CASL/CAN-SPAM).",
+    author: "Istephensondev",
+    name: "community-email",
+    url: "https://github.com/Istephensondev/brookdale-valencia-community-email/blob/main/valenciascreenshot.png",
+    image: "./assets/images/uaoxboxthumb.png"
+  },
      {
     title: "Brookdale Community Email",
     about: "Designed and coded a community email for Brookdale Senior Living, focusing on clear messaging and responsive design to engage residents and families effectively across all devices.",
@@ -238,6 +262,14 @@ export const projects = [
     name: "community-email",
     url: "https://github.com/Istephensondev/brookdale-valencia-community-email/blob/main/valenciascreenshot.png",
     image: "./assets/images/valenciascreenshot.png"
+  },
+   {
+    title: "Universal Audio Blog Article",
+    about: "I designed and coded a Universal Audio blog post in Shopify, building a custom Liquid article template with responsive typography, optimized images, accessibility best practices, and SEO/OG tags configurable in the theme editor.",
+    author: "Istephensondev",
+    name: "blog-article",
+    url: "https://www.uaudio.com/blogs/ua/why-apollo-sounds-better",
+    image: "./assets/images/uablogarticle.png"
   },
 ];
 
